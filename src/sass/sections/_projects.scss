@@ -2,7 +2,7 @@
   background-color: $white-color;
   color: $dark-blue-text;
   margin-top: -10rem;
-  padding-top: 15rem;
+  padding-top: -10rem;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -38,6 +38,7 @@
         font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
+        
 
         @include respond(phone) {
           font-size: 2rem;

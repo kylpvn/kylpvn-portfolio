@@ -8,7 +8,7 @@
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
-  margin-bottom: 0;
+  margin-bottom: -12rem;
   top: 0;
   left: 0;
   bottom: 0;
@@ -31,8 +31,9 @@
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
-    margin-bottom: 3.2rem;
+    margin-bottom: 2.2rem;
     text-align: left;
+    
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -44,6 +45,7 @@
     @include respond(phone) {
       font-size: 3.5rem;
       line-height: 1.5;
+     
     }
     @include respond(phone-xs) {
       font-size: 2.8rem;
@@ -65,4 +67,11 @@
       }
     }
   }
+}
+@media (max-width: 37.5em) {
+  
+
+.text-color-main {
+  -webkit-text-fill-color: #09b6f0;
+  background-image: none;}
 }

@@ -15,7 +15,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
     <title>[Your name here] | Developer</title>
@@ -29,6 +29,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="skills.css" />
+
+
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -42,18 +45,20 @@
   <body>
     <div id="top"></div>
 
-    <!-- **** Hero Section **** -->
+ 
+
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
-          <br />
-          I'm the Unknown Developer.
+          Hi, my name is <span class="text-color-main">Kyle Pavan</span>
+          <br>
+          
         </h1>
+        <h2 class="hero-title load-hidden">
+          I'm a <span class="text-color-main">Web Developer</span> <span class="text-color-main">Live Audio Engineer</span> and <span class="text-color-main">Music Producer</span>
+        </h2>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Find out more</a>
         </p>
       </div>
     </section>
@@ -66,33 +71,34 @@
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
+              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="./assets/profile.e498d42e.jpg">
             </div>
           </div>
+          <style>ul li strong {font-size: 1.3em;}
+
+        </style> 
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
-              </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+              <p class="about-wrapper__info load-hidden"> 
+                 As a seasoned web developer, I bring to the table extensive 
+                 experience in a wide range of programming languages, such as C++, 
+                 Python, JavaScript, React, HTML, and CSS, all of which are widely 
+                 utilized in the field of web development. Furthermore, my proficiency 
+                 in audio editing software including Pro Tools, Logic Pro X, Waves, and 
+                 Fabfilter, means I possess the expertise to create and modify audio for websites or applications.
+
+              </p><p>
+                What sets me apart from the rest is my exceptional interpersonal skills, 
+                which encompass top-notch communication, teamwork, problem-solving, time management, 
+                and client management skills. These skills are invaluable in any development team, 
+                especially in web development where teamwork and effective communication are critical. 
+                With my combination of technical and interpersonal skills, I am confident that I will make 
+                a valuable addition to your web development team.
               </p>
               <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
-                  View Resume
+                <a rel="noreferrer" class="cta-btn cta-btn--hero" href="./assets/resume.pdf">View Resume</a>
+                
+                  
                 </a>
               </span>
             </div>
@@ -102,59 +108,199 @@
     </section>
     <!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
+    
+<!-- /END About Section -->
+
+<!-- **** Skills Section **** -->
+<section id="skills">
+  <div class="container">
+      <div class="about-wrapper__info load-hidden">
+    <h1 class="hero-title load-hidden">
+       <span class="text-color-main1">Some things that I do for Clients</span>
+    <div class="skills-wrapper">
+      <p> <h2>Live Audio Technician</h2>
+              
+        <p>As a Live Audio Mixing Engineer, I masterfully sculpt the soundscapes of live events, 
+          ensuring every note and nuance is optimally balanced for an immersive auditory experience. 
+          With a keen ear for detail and a deft touch on the mixing console, I harmonize the technical with the artistic, 
+          delivering crystal-clear acoustics tailored to the unique atmosphere of each venue. 
+          My precise adjustments and real-time problem-solving skills ensure that every performance resonates with the audience exactly as intended.</p></p>
+
+      <p> <h3>Web Developer</h3>
+        
+        <p> As a proficient Web Developer, my expertise lies in transforming code into compelling online experiences using HTML, CSS, JavaScript, React, and Python. 
+          My deep understanding of these languages enables me to create responsive and dynamic websites that not only perform flawlessly across all devices but also captivate users with their functionality and aesthetic appeal. 
+          By leveraging these tools, I deliver tailor-made digital solutions that empower clients to achieve their unique business objectives, 
+          ensuring a sophisticated and intuitive user interface that drives engagement and success.</p>
+        </p>
+
+      <p><h3>Music Producer</h3>
+       <p>As a freelance Music Producer, I blend a rich palette of sonic elements to compose tracks that resonate deeply with listeners. 
+          My command of music theory, coupled with advanced production software skills, 
+          allows me to orchestrate and fine-tune each layer of a composition. From crafting infectious melodies to engineering lush soundscapes, 
+          I empower artists to realize their creative vision, delivering polished, 
+          professional tracks that stand out in a crowded industry and captivate the audience with every beat.</p>                        
+</p>
+    
+  </div>
+</div>
+</div>
+</section>
+<!-- /END Skills Section -->
+
+<!-- Existing Projects Section -->
+<section id="projects">
+  ...
+</section>
+<!-- /END Projects Section -->
+
+
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <section id="hero" class="jumbotron">
+            <div class="container">
+              <h1 class="hero-title load-hidden">
+                These are some of my <span class="text-color-main">Web Development Projects</span>
+              </h1>
+              <p class="hero-cta load-hidden">
+                <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#textCarousel3">See more</a>
+              </p>
+            </div>
+          </section>
+
+          <!-- Notice: each .row is a project -->
+
+
+          <div class="row">
+            <!-- Left Column -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                    <h3 class="project-wrapper__text-title">Loading Animation</h3>
+        
+                    <!-- Carousel Section -->
+                    <div id="textCarousel3" class="carousel slide" data-ride="carousel" data-interval="30000">
+                        <div class="carousel-inner">
+                            <!-- Carousel Item 1 -->
+                            <div class="carousel-item active">
+                              <h2>Loading Animation Overview</h2>
+                  
+                              <p>This loading animation is designed to capture the attention of visitors to a website, offering both visual engagement and informative insight.</p>
+                              
+                              <h3>Design:</h3>
+                              <p>The animation showcases an atom-like structure. Central to its design is a glowing nucleus, which is orbited by electrons and neutrons in a continuous loop. The color palette is meticulously selected, ensuring each atom component complements the others. Set against a black backdrop, these vibrant colors make the atom components seem luminous, adding to the animation's allure.</p>
+                              
+                            </div>
+        
+                            <!-- Carousel Item 2 -->
+                            <div class="carousel-item">
+                              <h3>Implementation:</h3>
+                              <p>Created using the foundational technologies of HTML and CSS, integrating this animation into any website is straightforward. Its versatility makes it suitable for diverse websites – from portfolios and e-commerce platforms to more.</p>
+                              
+                              <h3>Impact:</h3>
+                              <p>Employing this loading animation can greatly enrich user experience, signaling both professionalism and a keen eye for detail, ensuring visitors are both impressed and engaged.</p>
+                          
+                            </div>
+
+                        </div>
+        
+                        <!-- Carousel Navigation -->
+                        <a class="carousel-control-prev" href="#textCarousel3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#textCarousel3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+        
+                    <!-- Call To Action Buttons -->
+                    <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://kylpvn.github.io/Loading-Animation/">See Live</a>
+                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/kylpvn/Loading-Animation">Source Code</a>
+                </div>
+            </div>
+        
+            <!-- Right Column -->
+            <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                        <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.8" class="thumbnail1 rounded js-tilt">
+                            <img alt="Project Image" class="img-fluid" src="./assets/preloader.gif">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+          <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
           <div class="row">
+            <!-- Left Column -->
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+                <h3 class="project-wrapper__text-title">TopSushi-Van Website</h3>
+          
+                <!-- Carousel Section -->
+                <div id="textCarousel4" class="carousel slide" data-ride="carousel" data-interval="30000">
+                  <div class="carousel-inner">
+                    <!-- Carousel Item 1 -->
+                    <div class="carousel-item active">
+                      <h2>Structural Foundation</h2>
+          
+                      <p>The website's foundation is built on HTML5, creating a responsive and accessible interface that adapts to various devices and screen sizes.</p>
+                      
+                      <h3>Styling with CSS3:</h3>
+                      <p>CSS3 is employed for visual styles that include gradients and animations, reflecting the sushi theme across all device resolutions using responsive design principles.</p>
+                      
+                    </div>
+          
+                    <!-- Carousel Item 2 -->
+                    <div class="carousel-item">
+                      <h3>Interactive Elements with JavaScript:</h3>
+                      <p>JavaScript adds interactive features such as dropdown menus and modal windows for a dynamic user experience, alongside asynchronous data requests for live content updates.</p>
+                      
+                      <h3>Visual and Interactive Features:</h3>
+                      <p>Features high-resolution images and CSS animations for an engaging visual presentation, while JavaScript enables responsive animations and user interactions.</p>
+                  
+                    </div>
+          
+                    <!-- Carousel Item 3 -->
+                    <div class="carousel-item">
+                      <h3>Backend Integration:</h3>
+                      <p>Server-side database connections provide real-time menu updates and transaction security, ensuring an up-to-date and safe user environment.</p>
+                      
+                      <h3>Key Design Elements:</h3>
+                      <p>Responsive design, distinctive branding, and interactive menus create a user-centric navigation experience that is both intuitive and aesthetically pleasing.</p>
+                  
+                    </div>
+                  </div>
+          
+                  <!-- Carousel Navigation -->
+                  <a class="carousel-control-prev" href="#textCarousel4" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#textCarousel4" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
+          
+                <!-- Call To Action Buttons -->
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://topsushi-van.com/">See Live</a>
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/kylpvn/TopSushi-Van">Source Code</a>
               </div>
             </div>
+          
+            <!-- Right Column -->
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.8" class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="./assets/project1.jpg">
                   </div>
                 </a>
               </div>
@@ -163,130 +309,307 @@
           <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
+
+
+
           <div class="row">
+            <!-- Left Column -->
             <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
+                <div class="project-wrapper__text load-hidden">
+                    <h3 class="project-wrapper__text-title">New Souls</h3>
+        
+                    <!-- Carousel Section -->
+                    <div id="textCarousel" class="carousel slide" data-ride="carousel" data-interval="30000">
+                        <div class="carousel-inner">
+                            <!-- Carousel Item 1 -->
+                            <div class="carousel-item active">
+                                <h2>New Souls Company Website</h2>
+                                <h3>Description:</h3>
+                                <p>The New Souls Company website is a sleek and modern digital platform designed to showcase the company's team and gather client testimonials. Its elegant and user-centric layout offers visitors an intuitive browsing experience.</p>
+                            </div>
+        
+                            <!-- Carousel Item 2 -->
+                            <div class="carousel-item">
+                                <h3>Structure & Design:</h3>
+                                <h4>Team Showcase:</h4>
+                                <p>The site boasts a dedicated section to spotlight key team members, emphasizing their roles and social media links. This personal touch serves to humanize the brand, facilitating trust among potential clients and partners.</p>
+                                <h4>Client Testimonials:</h4>
+                                <p>A testimonial carousel is integrated, offering dynamic views of client feedback, complete with images for added authenticity. This section builds brand credibility and highlights customer satisfaction.</p>
+                                <h4>Footer:</h4>
+                                <p>The footer is multifunctional, containing contact details, product links, quick navigation, and a newsletter signup. This design ensures that essential information and navigation remain accessible no matter where the user might be on the page.</p>
+                            </div>
+        
+                            <!-- Carousel Item 3 -->
+                            <div class="carousel-item">
+                                <h3>Technology Stack:</h3>
+                                <ul>
+                                    <p>HTML5 & CSS3: These foundational technologies were used to structure and style the site, ensuring semantic correctness and visual appeal.</p>
+                                    <p>Bootstrap 5: Leveraged for its mobile-first grid system and components, this ensured the website's responsiveness across devices.</p>
+                                    <p>JavaScript Libraries: Various libraries such as jQuery, WOW, Owl Carousel, and more were integrated to enhance the site's interactivity and functionality.</p>
+                                </ul>
+                            </div>
+        
+                            <!-- Carousel Item 4 -->
+                            <div class="carousel-item">
+                                <h3>Functionality:</h3>
+                                <p>The primary function of this website is to serve as an informative and interactive platform for current clients, potential clients, and partners. Visitors can get acquainted with the team, read testimonials, discover products, and connect through various touchpoints, from social media links to the newsletter signup.</p>
+        
+                                <h3>Development Notes:</h3>
+                                <p>Special attention was given to ensuring the site's responsiveness and load times. Placeholder images and links are meant to be replaced with actual content. The integration of many external libraries was purposefully chosen to enrich the user experience, but care should be taken to ensure these libraries are kept updated.</p>
+        
+                                <p class="closing-note">This website is a testament to the marriage of aesthetics with functionality, aimed at providing users with both essential information and a delightful browsing experience.</p>
+                            </div>
+                        </div>
+        
+                        <!-- Carousel Navigation -->
+                        <a class="carousel-control-prev" href="#textCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#textCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+        
+                    <!-- Call To Action Buttons -->
+                    <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://kylpvn.github.io/NewSouls-startup/index.html">See Live</a>
+                    <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/kylpvn/NewSouls-startup">Source Code</a>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
             </div>
+        
+            <!-- Right Column -->
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+                <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                        <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.8" class="thumbnail rounded js-tilt">
+                            <img alt="Project Image" class="img-fluid" src="./assets/Newsouls1.jpg">
+                        </div>
+                    </a>
+                </div>
             </div>
-          </div>
-          <!-- /END Project -->
+        </div>
+         
 
           <!-- Notice: each .row is a project -->
           <div class="row">
+            <!-- Left Column -->
             <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
+                <div class="project-wrapper__text load-hidden">
+                    <h3 class="project-wrapper__text-title">Sum.ai</h3>
+                
+                    <!-- Carousel Section -->
+                    <div id="textCarousel1" class="carousel slide" data-ride="carousel" data-interval="30000">
+                        <div class="carousel-inner">
+                            
+                            <!-- Carousel Item 1 -->
+                            <div class="carousel-item active">
+                                <h2>Summize: Article Summarizer with OpenAI GPT-4</h2>
+                                <h3>Description:</h3>
+                                <p>Sum.ai is an intuitive web application designed to simplify your reading experience. Powered by the cutting-edge OpenAI GPT-4 technology, the application offers users the capability to transform lengthy articles into clear and concise summaries in just a few clicks.</p>
+                            </div>
+                            
+                            <!-- Carousel Item 2 -->
+                            <div class="carousel-item">
+                                <h4>UI/UX:</h4>
+                                <p>Sum.ai features a clean user interface, starting with a striking Hero section. The hero banner clearly states the app's purpose, and the bold emphasis on the utilization of OpenAI GPT-4 is hard to miss. This section also introduces the Summize brand, promising users a simplified reading experience. A prominent GitHub button in the navigation allows users to visit the developer's repository or profile, showcasing transparency and a commitment to the open-source community.</p>
+                            </div>
+        
+                            <!-- Carousel Item 3 -->
+                            <div class="carousel-item">
+                                <h4>Article Submission & Summarization:</h4>
+                                <p>Users can easily submit article URLs in the Demo section. Upon submission, the application fetches a summarized version of the article's content. This asynchronous operation is facilitated by Redux Toolkit's RTK Query, ensuring efficient and robust data fetching. For articles already processed, Sum.ai smartly fetches summaries from the browser's local storage, enhancing the application's performance by reducing redundant network requests.</p>
+                            </div>
+        
+                            <!-- Carousel Item 4 -->
+                            <div class="carousel-item">
+                                <h4>Browsing History:</h4>
+                                <p>Users have the convenience of viewing a history of their processed articles. They can easily revisit summaries or copy the original article's URL to their clipboard.</p>
+                            </div>
+        
+                            <!-- Carousel Item 5 -->
+                            <div class="carousel-item">
+                                <h4>RapidAPI Integration:</h4>
+                                <p>The backend integration leverages the RapidAPI platform. The application communicates with the 'article-extractor-and-summarizer' endpoint on RapidAPI to retrieve article summaries. The API requests are authenticated and prepared using environment-specific API keys, ensuring secure interactions.</p>
+                            </div>
+        
+                            <!-- Carousel Item 6 -->
+                            <div class="carousel-item">
+                                <h4>Error Handling & User Feedback:</h4>
+                                <p>Sum.ai offers visual feedback during various user interactions, from loading animations to informative error messages. This ensures a smooth and informative user experience, even when unexpected issues arise.</p>
+                         
+                                <h4>Tech Stack & Tools:</h4>
+                                <p>Redux Toolkit, React, OpenAI GPT-4, RapidAPI.</p>
+                            </div>
+        
+                        </div>
+                
+                <!-- Carousel Navigation -->
+                <a class="carousel-control-prev" href="#textCarousel1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#textCarousel1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                  <span class="sr-only">Next</span>
+              </a>
           </div>
+
+          <!-- Call To Action Buttons -->
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">See Live</a>
+          <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">Source Code</a>
+      </div>
+  </div>
+                
+            <!-- Right Column -->
+            <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                        <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                            <img alt="Project Image" class="img-fluid" src="./assets/Sum.ai.jpg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
           <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+
+        
+          <div class="row">
+            <!-- Left Column -->
+            <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                    <h3 class="project-wrapper__text-title">SmartBrian Project</h3>
+                
+                    <!-- Carousel Section -->
+                    <div id="textCarousel2" class="carousel slide" data-ride="carousel" data-interval="30000">
+                        <div class="carousel-inner">
+                            
+                            <!-- Carousel Item 1 -->
+                            <div class="carousel-item active">
+                              
+                                <h2>Rico.AI Face Detection App</h2>
+
+                                <p>This is a face detection application powered by React and the Clarifai API. 
+                                  It boasts a sleek and interactive user interface that comes alive with a dynamic
+                                  background animation made possible by the ParticlesBg library.</p>
+
+                                <h3></h3>
+                                <p></p>
+                             
+                            </div>
+                            
+                            <!-- Carousel Item 2 -->
+                            <div class="carousel-item">
+                                <h3>Features:</h3>
+              
+                              <h4>User Authentication:</h4>
+                              <p>The application supports a registration and sign-in process. 
+                                Users can sign up to create an account and then sign in to access the app's main features. 
+                                The user's information, such as ID, name, email, entry count, and join date, is maintained in the application's state.</p>
+                          
+                              <h4>Face Recognition:</h4>
+                              <p>At the heart of the application is its ability to detect faces in images. 
+                                Users input an image URL, and the app uses the Clarifai API to recognize and 
+                                highlight faces in the image using bounding boxes.</p>
+                          
+                              <h4>Ranking System:</h4>
+                              <p>Each time a user detects a face in an image, their entry count is 
+                                incremented, offering a sense of interaction and achievement.</p>
+                            </div>
+        
+                            <!-- Carousel Item 3 -->
+                            <div class="carousel-item">
+                                <h4>Interactive Components:</h4>
+                                <p> </p><ul>
+                                  <li>
+                                      <strong>Navigation:</strong>
+                                      <p>Allows users to navigate between different views of the application 
+                                        and provides options to sign in, register, or sign out based on the user's authentication status.</p>
+                                  </li>
+                                  <li>
+                                      <strong>Logo:</strong>
+                                      <p>A decorative logo component that's displayed on the home page.</p>
+                                  </li>
+                                  <li>
+                                      <strong>ImageLinkForm:</strong>
+                                      <p>This component lets users input an image URL and submit it for face detection.</p>
+                                  </li>
+                                  <li>
+                                      <strong>FaceRecognition:</strong>
+                                      <p>Displays the input image and overlays bounding boxes around detected faces.</p>
+                                  </li>
+                                  <li>
+                                      <strong>Dynamic Background:</strong>
+                                      <p>The app features a "cobweb" style dynamic background, 
+                                        adding an element of visual flair to the user interface.</p>
+                                  </li>
+                              </ul><p></p>
+                            </div>
+        
+                            <!-- Carousel Item 4 -->
+                            <div class="carousel-item">
+                              <h4>State Management:</h4>
+                              <p>The app smartly manages various states, such as input URL, 
+                                detected face box coordinates, current view route, user authentication status, 
+                                and user details. This ensures a seamless and interactive experience for users.</p>
+                          
+                              <h4>Backend Communication:</h4>
+                              <p>The application communicates with an external backend 
+                                (suggested by the fetch call to a Heroku app URL). 
+                                It seems like the backend handles updating and retrieving user entry counts.</p>
+                          
+                            </div>
+        
+                        </div>
+                
+                <!-- Carousel Navigation -->
+                <a class="carousel-control-prev" href="#textCarousel2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#textCarousel2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>
+
+          <!-- Call To Action Buttons -->
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://rico-ai-447767b3745d.herokuapp.com/">See Live</a>
+          <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">Source Code</a>
+      </div>
+  </div>
+                
+            <!-- Right Column -->
+            <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                    <a rel="noreferrer" href="#!" target="_blank">
+                        <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                            <img alt="Project Image" class="img-fluid" src="./assets/rico.ai.jpg">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <!-- /END Project -->
+        
+
         </div>
       </div>
     </section>
     <!-- /END Projects Section -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
+
+     <!-- **** Contact Section **** -->
+     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">Kylpvn@gmail.com</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+          <p class="contact-wrapper__text">Discover how my skills can drive your company's success.</p>
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:kylpvn@gmail.com">Bring Me On Board</a>
         </div>
       </div>
     </section>
@@ -299,54 +622,35 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/kyle-pavan-822123140/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/kylpvn" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
-        <hr />
+        <hr>
 
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-            >Jacobo Martínez</a
-          >
+          © 2024 - Portfolio developed by
+          <a rel="noreferrer" href="https://github.com/kylpvn" target="_blank">Kyle Pavan</a>
         </p>
 
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
+        
       </div>
     </footer>
     <!-- /END Footer Section -->
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+
     <script defer type="module" src="index.js"></script>
+    <script defer="" src="./script.js"></script>
   </body>
 </html>

@@ -1,0 +1,41 @@
+#skills {
+  color: #000;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: none;
+  height: 100%;
+  background-color: #09b6f0;
+  background-image: linear-gradient(#fff, #09b6f0);
+  background-color: linear-gradient(#fff, #09b6f0);
+  border-top: 0;
+  padding: 100px 0;
+}
+
+#skills .container {
+  max-width: 800px;
+  margin: 0 auto 100px;
+}
+
+#skills .section-title {
+  text-align: center;
+  color: #000;
+  margin-bottom: 40px;
+  font-size: 10em;
+}
+
+.skills-wrapper p {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.project-wrapper__text {
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+/*# sourceMappingURL=index.7949cc8e.css.map */

@@ -51,3 +51,20 @@ a:hover {
     transform: translateX(2px);
   }
 }
+.text-color-main1{
+  font-size: 4rem;
+}
+
+.text-color-main1 {
+  @include supportColorForIE11();
+
+  // Responsive text purple style
+  @include respond(phone) {
+    background-image: none;
+    -webkit-text-fill-color: $secondary-color;
+  }
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
